@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 226942249}
   - component: {fileID: 226942251}
   - component: {fileID: 226942250}
+  - component: {fileID: 226942252}
   m_Layer: 5
   m_Name: Bird
   m_TagString: Untagged
@@ -155,10 +156,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1059404149}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -701, y: -272}
-  m_SizeDelta: {x: 324.97, y: 324.97}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 259, y: 268}
+  m_SizeDelta: {x: 324.96997, y: 324.97}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &226942250
 MonoBehaviour:
@@ -198,6 +199,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 226942248}
   m_CullTransparentMesh: 1
+--- !u!114 &226942252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226942248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0a8d60d687b20844a5fb4d9f6acde4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
